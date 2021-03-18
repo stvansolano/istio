@@ -1,4 +1,4 @@
-# My Codespace
+# My Codespace - Istio
 
 [Twitter: @stvansolano](https://twitter.com/stvansolano)
 
@@ -8,7 +8,7 @@ If you like or are using this project to learn or start your own solution, pleas
 
 A ready-to-use, templated GitHub Codespace that I regularly use for VS Code on GitHub (Codespaces).
 
-## Batteries included
+## Batteries included (Development)
 
 - Docker
 - Kubernetes (WIP)
@@ -26,3 +26,9 @@ Extensions
 k3d cluster create mycluster \
     && k3d kubeconfig merge mycluster --kubeconfig-switch-context
 ```
+
+## Istio
+
+curl -L https://istio.io/downloadIstio | sh -
+
+export PATH=$PWD/bin:$PATH
